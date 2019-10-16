@@ -5,7 +5,7 @@ describe('calculate', function() {
    it('add', function() {
      let name = 'Gizelly';
 
-     name = service.shortName(name);
+     name = service.shortinName(name);
      expect(name).toBe('G');
    }); 
  });
